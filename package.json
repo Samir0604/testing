@@ -15,7 +15,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@types/mongoose": "^5.11.96",
     "express": "^4.18.2",
+    "mongoose": "^8.13.2",
     "typescript": "^5.3.3"
   },
   "devDependencies": {

@@ -6,4 +6,6 @@ module.exports = {
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
   },
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
+  testTimeout: 10000, // 10 Sekunden Timeout
 }; 
